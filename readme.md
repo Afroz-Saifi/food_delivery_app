@@ -1,4 +1,7 @@
 API documentation:-
+
+outputvideo : https://drive.google.com/file/d/1uozpiGKzmIhucmlzIBP_Bs7rLWzFual6/view?usp=sharing
+
 Routes:-
     /api/register: 
         User will be able to create a new account
