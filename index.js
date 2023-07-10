@@ -10,6 +10,9 @@ const app = express()
 app.use(express.json())
 app.use(cors())
 
+app.get("/", (req, res) => {
+    res.send("Welcome to Food delivery app")
+})
 app.use("/api", userRouter)
 app.use("/api/restaurants", restaurantRouter)
 app.use("/api/orders", orderRouter)
